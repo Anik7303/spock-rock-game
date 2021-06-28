@@ -1,3 +1,5 @@
+import { startConfetti, stopConfetti, removeConfetti } from './confetti.js'
+
 const playerScoreEl = document.getElementById('player-score')
 const playerChoiceEl = document.getElementById('player-choice')
 const computerScoreEl = document.getElementById('computer-score')
@@ -148,3 +150,5 @@ function resetAll() {
 
 // on load
 resetAll()
+window.select = select
+window.resetAll = resetAll
